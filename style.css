@@ -1,0 +1,182 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: black;
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,136,1) 35%, rgba(0,212,255,1) 100%);
+  padding: 10px 0;
+}
+
+.top-bar {
+  background-color: #01396f;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.top-bar-right {
+  float: right;
+}
+
+.top-bar-right a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+nav {
+  background-color: #004b8d;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #01396f;
+}
+
+.hero-section {
+  background-image: url('campus\ \(1\)\ \(1\).webp');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h2 {
+  font-size: 48px;
+}
+
+.hero-section p {
+  font-size: 24px;
+}
+
+.hero-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #004b8d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-section button:hover {
+  background-color: #01396f;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  padding: 50px 20px;
+  color: white;
+}
+
+.course {
+  text-align: center;
+  width: 30%;
+}
+
+.course h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course p {
+  font-size: 18px;
+  color: #004b8d;
+}
+
+.programs {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.program {
+  width: 30%;
+  text-align: center;
+}
+
+.program img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.program h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.program button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #004b8d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.program button:hover {
+  background-color: #01396f;
+}
+
+footer {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
